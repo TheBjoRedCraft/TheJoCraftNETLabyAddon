@@ -1,7 +1,7 @@
 {
-  "example": {
+  "thejocraftnet": {
     "settings": {
-      "name": "ExampleAddon",
+      "name": "Tutorial Addon",
       "enabled": {
         "name": "Enabled"
       }

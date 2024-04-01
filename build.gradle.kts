@@ -4,20 +4,20 @@ plugins {
     id("net.labymod.gradle.addon")
 }
 
-group = "org.example"
+group = "dev.thebjoredcraft"
 version = "1.0.0"
 
 java.toolchain.languageVersion.set(JavaLanguageVersion.of(17))
 
 labyMod {
-    defaultPackageName = "org.example" //change this to your main package name (used by all modules)
+    defaultPackageName = "dev.thebjoredcraft" //change this to your main package name (used by all modules)
     addonInfo {
-        namespace = "example"
-        displayName = "ExampleAddon"
-        author = "Example Author"
-        description = "Example Description"
-        minecraftVersion = "*"
-        version = System.getenv().getOrDefault("VERSION", "0.0.1")
+        namespace = "thejocraftnet"
+        displayName = "TheJoCraft.net Addon"
+        author = "TheBjoRedCraft"
+        description = "TheJoCraft.net Addons"
+        minecraftVersion = "1.20.1<1.20.4"
+        version = System.getenv().getOrDefault("VERSION", "1.0.0")
     }
 
     minecraft {

@@ -1,0 +1,10 @@
+{
+  "thejocraftnet": {
+    "settings": {
+      "name": "Tutorial Addon",
+      "enabled": {
+        "name": "Aktiviert"
+      }
+    }
+  }
+}
